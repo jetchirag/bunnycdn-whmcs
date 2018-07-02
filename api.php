@@ -1,7 +1,7 @@
 <?php
 
 /* Original work at 
-* https://github.com/codewithmark/bunnycdn/blob/master/bunnycdn.php
+* https://github.com/codewithmark/bunnycdn/
 * @codewithmark
 */
 
