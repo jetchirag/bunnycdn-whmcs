@@ -37,10 +37,10 @@ function bunnycdn_ConfigOptions()
 function bunnycdn_CreateAccount(array $params){
     try {
         
-        $protocol = $params['model']->serviceProperties->get('protocol');
+        $protocol = $params['customfields']['protocol'];
         
-        if ($protocol != 'http' || $protocol != 'https') {
-            return "Invalid Protocol given";
+        if ($protocol != 'http' && $protocol != 'https') {
+            return "Invalid Protocol given '" . $protocol . "'";
         }
         
         $bunny = new BunnyCDN($params['serverpassword']);
