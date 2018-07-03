@@ -16,7 +16,7 @@ git clone https://github.com/jetchirag/bunnycdn-whmcs/ bunnycdn
 
 ## While creating a plugin, it is important to provide a custom field option which looks like this:
 
-[BunnyCDN-WHMCS-SETUP](https://i.imgur.com/L4z79OU.png)
+![BunnyCDN-WHMCS-SETUP](https://i.imgur.com/L4z79OU.png)
 
 **Warning**: This module has not been tested in production, please use it at your own risk.
 
