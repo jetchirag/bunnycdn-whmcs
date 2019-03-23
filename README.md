@@ -14,7 +14,7 @@ Goto modules/servers and run below command if available
 git clone https://github.com/jetchirag/bunnycdn-whmcs/ bunnycdn
 ``
 
-## While creating a plugin, it is important to provide a custom field option which looks like this:
+## While creating a product, it is important to provide a custom field option which looks like this:
 
 ![BunnyCDN-WHMCS-SETUP](https://i.imgur.com/L4z79OU.png)
 
