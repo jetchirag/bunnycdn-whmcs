@@ -12,7 +12,7 @@ class BunnyCDN
     
     function __construct( $api_key_account ) {
 		if(!$api_key_account){			 
-            throw new My_Exception('missing api key account');
+            throw new Exception('missing api key account');
 			die();
 		}
 		$this->api_key_account = $api_key_account;
