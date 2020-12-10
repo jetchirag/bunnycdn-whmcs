@@ -257,11 +257,11 @@ function bunnycdn_AdminServicesTabFields(array $params)
         }
         
         $zoneDetails = [];
-        foreach ((array)$response['zone_details'] as $key => $value) {
-            if (!is_array($value)){
-                $zoneDetails[$key] = $value;
-            }
-        }
+//        foreach ((array)$response['zone_details'] as $key => $value) {
+//            if (!is_array($value)){
+//                $zoneDetails[$key] = $value;
+//            }
+//        }
         return $zoneDetails;
     } catch (Exception $e) {
         logModuleCall(
