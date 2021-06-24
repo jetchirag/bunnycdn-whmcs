@@ -14,6 +14,9 @@ Goto modules/servers and run below command if available
 git clone https://github.com/jetchirag/bunnycdn-whmcs/ bunnycdn
 ``
 
+### Create new server
+Add a new server and select BunnyCDN in Module. Use your API key as server's password.
+
 ## While creating a product, it is important to provide a custom field option which looks like this:
 
 ![BunnyCDN-WHMCS-SETUP](https://i.imgur.com/L4z79OU.png)
